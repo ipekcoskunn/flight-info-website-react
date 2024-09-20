@@ -1,0 +1,85 @@
+.flight-info-card {
+    margin: 15px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+    background-color: $white-color;
+    box-shadow: 0 5px 10px rgba($grey-color, 0.3);
+}
+
+.flight-info-card .flight-title {
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.flight-info-card>div:nth-child(2) {
+    text-align: center;
+    position: relative;
+}
+
+.flight-info-card>div:nth-child(2) span {
+    position: absolute;
+    top: 10%;
+    right: -10%;
+}
+
+.flight-info-card>div:nth-child(3) {
+    text-align: center;
+    position: relative;
+}
+
+.flight-info-card>div:nth-child(3) span {
+    position: absolute;
+    top: 10%;
+    right: -10%;
+}
+
+.flight-info-card>div:nth-child(4) {
+    text-align: center;
+}
+
+.flight-info-card .airline {
+    font-size: $fs-small;
+    opacity: .9;
+}
+
+.flight-info-card .flight-time {
+    font-size: $fs-base;
+    font-weight: 600;
+}
+
+.flight-info-card .flight-number {
+    font-size: $fs-small;
+    opacity: .9;
+}
+
+.flight-info-card .flight-price {
+    margin-top: 15px;
+    font-size: $fs-base;
+    color: $primary-color;
+    font-weight: 700;
+}
+
+.flight-info-card .flight-trip {
+    font-size: $fs-small;
+    opacity: .9;
+}
+
+.flight-info-card svg {
+    margin-right: 5px;
+}
+
+.flight-info-card .flight-book-btn {
+    position: absolute;
+    margin-right: 0;
+    margin-bottom: 0;
+    bottom: 0;
+    right: 0;
+    margin: 10px 0px 0px 10px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    background-color: $primary-color;
+    font-weight: 600;
+    color: $white-color;
+}
