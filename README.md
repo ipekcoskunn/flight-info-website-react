@@ -10,3 +10,6 @@ Starting Project:
 
 - npm run dev
 
+Screenshots
+
+![appfellas1](https://github.com/user-attachments/assets/4d363071-2332-4ecc-bf06-2c287823af97)
