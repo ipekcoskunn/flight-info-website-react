@@ -1,0 +1,33 @@
+.filter-card {
+    margin: 15px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+    background-color: $white-color;
+    box-shadow: 0 5px 10px rgba($grey-color, 0.3);
+}
+
+
+.left-input {
+    border-radius: 20px 0 0 20px;
+    margin: 2px;
+    padding: 2px 8px;
+    border: 1px solid $grey-color;
+}
+
+.right-input {
+    border-radius: 0 20px 20px 0;
+    margin: 2px;
+    padding: 2px 8px;
+    border: 1px solid $grey-color;
+}
+
+.filter-button {
+    width: auto !important;
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: $white-color;
+    background-color: $primary-color;
+    font-weight: 600;
+
+}
